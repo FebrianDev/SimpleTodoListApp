@@ -90,6 +90,11 @@ class DetailTodoActivity : AppCompatActivity(), DatePickerFragment.DialogDateLis
 
         viewModel.updateTodo(id, name, date, time, isCompleted)
 
+        alarmReceiver.cancelAlarm(
+            this,
+            id
+        )
+
         alarmReceiver.setOneTimeAlarm(
             this,
             id,
