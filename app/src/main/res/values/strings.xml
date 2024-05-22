@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleTodoListApp</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="name_hint">Name</string>
+    <string name="due_date">Due date</string>
+    <string name="edit_todo">Edit Todo</string>
+    <string name="detail_todo">Detail Todo</string>
+    <string name="due_time">Due time</string>
+</resources>
